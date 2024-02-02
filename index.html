@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADITYA Sweets Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to ADITYA Sweets Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                <li><a href="#" onclick="showPage('menu')">Menu</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="page">
+            <h2>Delicious Sweets in Mumbai</h2>
+            <p>Indulge in the delightful world of sweets at ADITYA Sweets Shop. Located in the heart of Mumbai, we offer a wide range of mouth-watering sweets made with love and tradition.</p>
+            <img src="sweets.jpg" alt="Sweets Image">
+        </div>
+
+        <div id="about" class="page" style="display:none;">
+            <h2>About ADITYA Sweets Shop</h2>
+            <p>Founded in Mumbai, ADITYA Sweets Shop has been serving delightful sweets for generations. We take pride in preserving traditional recipes and providing a unique taste experience for our customers.</p>
+        </div>
+
+        <div id="menu" class="page" style="display:none;">
+            <h2>Our Menu</h2>
+            <p>Explore our diverse menu of sweets, each crafted with precision and passion. From traditional Indian sweets to modern delicacies, we have something for every sweet tooth.</p>
+        </div>
+
+        <div id="contact" class="page" style="display:none;">
+            <h2>Contact ADITYA Sweets Shop</h2>
+            <p>Visit our shop in Mumbai or reach out to us using the contact details below:</p>
+            <address>
+                <p>ADITYA Sweets Shop</p>
+                <p>123 Sweet Street, Mumbai</p>
+                <p>Phone: +91 123 456 7890</p>
+                <p>Email: info@adityasweets.com</p>
+            </address>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ADITYA Sweets Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
